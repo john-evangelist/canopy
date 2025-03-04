@@ -5,8 +5,8 @@ Canopy is an edge-optimized, distributed feature flag system designed for low-la
 ## 🚀 Planned Features
 
 ### Core Functionality
-- **Dependency-Based Flags** – Flags can depend on other flags, ensuring hierarchical control without strict trees.
-- **Change History Without Hard Deletes** – Flag changes are stored instead of hard deleting, allowing auditability without full event sourcing.
+- **Dependency-Based Flags** – Flags can depend on other flags, ensuring hierarchical control.
+- **Change History Without Hard Deletes** – Flag changes are stored instead of hard deleting, allowing auditability.
 - **Multi-Tenancy & Segmentation** – Flags are scoped per project and environment (e.g., dev, staging, production).
 
 ### Edge Optimization
