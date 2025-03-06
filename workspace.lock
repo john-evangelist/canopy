@@ -1,0 +1,5 @@
+%{
+  "cli_options": {:hex, :cli_options, "0.1.4", "eb2e372de3611b356f2b87fa6fabdc170756128cf9936150f9ddded9bcf869d1", [:mix], [{:nimble_options, "~> 1.1.1", [hex: :nimble_options, repo: "hexpm", optional: false]}], "hexpm", "61642fb4258c45a910b2a4e9a8c11f5376c3afa3a27b2fd43ddc90d23f11d5eb"},
+  "nimble_options": {:hex, :nimble_options, "1.1.1", "e3a492d54d85fc3fd7c5baf411d9d2852922f66e69476317787a7b2bb000a61b", [:mix], [], "hexpm", "821b2470ca9442c4b6984882fe9bb0389371b8ddec4d45a9504f00a66f650b44"},
+  "workspace": {:hex, :workspace, "0.2.0", "8fde44808d23513bf848824eefa5bb59826e920a8d55259e08e49189b8e51c9e", [:mix], [{:cli_options, "~> 0.1.4", [hex: :cli_options, repo: "hexpm", optional: false]}, {:jason, "~> 1.4.1", [hex: :jason, repo: "hexpm", optional: true]}, {:nimble_options, "~> 1.1.1", [hex: :nimble_options, repo: "hexpm", optional: false]}], "hexpm", "6d0cacf59b4e7d612bb9ca91c836964c7f6cc2eb3ddeee4985e112b87575dbd1"},
+}
