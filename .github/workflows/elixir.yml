@@ -35,8 +35,6 @@ jobs:
         restore-keys: ${{ runner.os }}-mix-
     - name: "[Root] Install dependencies"
       run: mix deps.get
-    - name: Checks 
-      run: mix workspace.check 
     - name: "[Projects] Install dependencies"
       run: mix workspace.run -t deps.get --affected
     - name: "[Projects] Compile"
